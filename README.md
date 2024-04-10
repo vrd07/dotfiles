@@ -1,71 +1,59 @@
-## MiragianCycle's Dotfiles
+## MiragianCycle's Dotfiles   (and macOS  too!)
 
-This repository contains the configuration files (dotfiles) used to personalize my development environment across various Unix-based systems and macOS. 
+This repo holds the magic that makes my writing environment awesome across all my Unix-based systems (i.e. Linux and MacOS)
 
-### Welcome!
+### What's in the box?  
 
-Since there's been some interest in how I set up my development environment, I decided to document it. This repository serves as a reference point for my configurations and hopefully, a useful starting point for others.
+* **Unix General (Linux, MacOS etc.):** Got configs for your everyday heroes - Vim and NeoVim   (if you use both).
+* **MacOS Exclusives:**  This is where things get fancy! Yabai keeps my windows in check  (WindowManager for the win!), skhd helps with super speedy keyboard shortcuts  (bye-bye repetitive tasks!), and there's even a place for SketchyBar customizations   (optional, but fun for customizing your Mac).
 
-### What's Included?
+**Remember:** These are my preferences, but feel free to mix it up to fit your coding style. 
 
-This repository primarily focuses on two areas:
+**ALSO REMEMBER**: Never ever blindly copy code from the internet. Please take the time to look over the code and use it judiciously. 
 
-* **Unix-based Systems:** Configurations for ubiquitous tools like Vim and NeoVim.
-* **macOS:** Configurations for window management (Yabai), keyboard shortcuts (skhd), and potentially SketchyBar (optional).
+### Setting Up  
 
-**Note:** The specific dotfiles included will depend on the tools you use and your personal preferences.
+There are two ways to begin:
 
+**1. Manual Mode (DIY style):**
 
-### Getting Started
-
-There are two main ways to utilize these dotfiles:
-
-**1. Manual Installation:**
-
-* Clone this repository to your desired location.
-* Review the included dotfiles and customize them as needed.
-*  **Unix-based Systems:**
-    *  Move or link the relevant dotfiles (e.g., `.vimrc`) to their corresponding locations in your home directory.
-*  **macOS:**
-    *  Move or link the relevant configuration files (e.g., `.yabai`) to their corresponding locations in your home directory. 
-    *  (**Optional**) If using SketchyBar, follow their installation instructions and place your custom application catalogs within the `Applications` directory. 
-*  **Important:**  Ensure you understand the configurations before blindly copying them. 
-
-**2. Dotfiles Manager (Recommended):**
-
-Consider using a dotfiles manager like [https://github.com/thoughtbot/dotfiles](https://github.com/thoughtbot/dotfiles) to simplify installation and management. 
+* Grab this repo with `git clone`.
+*  the files and see what tickles your fancy.
+*  **For Unix folks:** Move or link  (like `.vimrc`) to their rightful spots in your home directory.
+*  **For macOS folks:** Same thing! Move the config files (e.g., `.yabai`) to their home in your home directory. For SketchyBar, follow their instructions and toss your custom app catalogs in the `Applications` directory  (optional, but pretty neat!).
+* **Important Note!**  Don't just copy-paste blindly - understand what each config does first  . 
 
 
-### Configuration Overview
+###  Peek Under the Hood  
 
-The repository is structured as follows:
+Here's a quick tour of what's inside:
 
-* `.vimrc`: Primary configuration file for Vim.
-*  **Optional:** `.vim` directory: Additional Vim configuration files (plugins, snippets etc.).
-*  **Optional:** `.nvim` directory: Configuration files specific to NeoVim (if you use both).
-* `macOS` directory: Contains configuration files specific to macOS.
-    * `.yabai`: Configuration file for the Yabai window manager.
-    * `.skhd`: Configuration file for keyboard shortcuts with skhd.
-    * `Applications` (Optional): Directory for storing SketchyBar application catalogs.
-
-
-### Customization
-
-While these configurations reflect my preferences, feel free to customize them! It's important to understand what each configuration does before blindly copying. 
-
-**Pro Tip:** Create a directory like `~/.dotfiles-local` to store your own customizations that won't be overwritten during updates.
+* `.vimrc`: The main course - my Vim configuration.
+*  **(Optional)** `.vim` directory: Extra Vim goodies like plugins and snippets (yum!).
+*  **(Optional)** `.nvim` directory: NeoVim-specific configs (if you're rocking both Vim and NeoVim).
+* `macOS` directory: All the macOS goodness.
+    * `.yabai`:  Yabai window manager configuration.
+    * `.skhd`:  Keyboard shortcut magic with skhd.
 
 
-### License
+### Make it Yours  
 
-This repository is licensed under the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/). 
+While these configs are my jam, feel free to personalize them!  The key is to understand what each setting does before you go wild  .
 
-### Resources
+**Pro-Tip:** Create a folder like `~/.dotfiles-local` to store your customizations  (this way, updates won't overwrite them).
 
-Here are some resources that you might find helpful:
+
+### Copyright  ©️
+
+This repo is rocking the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/). Basically, feel free to use and share as you see fit  (with attribution, please! ).
+
+
+### Bonus Round   
+
+Here are some resources that might be helpful:
 
 * Awesome Dotfiles: [https://github.com/awesomedotfiles/awesome-dotfiles](https://github.com/awesomedotfiles/awesome-dotfiles)
 * How to Create a Dotfiles Repository: [https://www.digitalocean.com/community/tutorials/how-to-create-a-dotfiles-repository](https://www.digitalocean.com/community/tutorials/how-to-create-a-dotfiles-repository)
 
-
-I hope this README provides a clear overview of my dotfiles repository. Feel free to reach out if you have any questions!
+**Disclaimer**
+The author of this repository is not liable for any damages or unintended consequences arising from the use of these dotfiles. While every effort has been made to ensure the functionality and stability of these configurations, it is understood that they may not be compatible with all systems or user preferences. Users are advised to proceed with caution and to back up their existing configurations before implementing any changes.
