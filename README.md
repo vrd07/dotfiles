@@ -14,6 +14,13 @@ Welcome to my collection of dotfiles! I use dotfiles to set up my environment on
 - Easy-to-understand organization and setup instructions
 - Compatibility with both Linux and macOS environments
 
+## Vim, NeoVim and OVIWrite
+
+- I use Vim, NeoVim and OVIWrite
+- My vimrc is mostly legacy - I keep it here for old time's sake. Most of my writing is done on [OVIWrite](https://github.com/MiragianCycle/OVIWrite), a personalized Integrated Writing Environment built using LazyVim
+- I code using the base config found on NVChad
+- I have both OVIWrite and NVChad running on my systems, using aliases to switch between the two depending on if I am writing or coding 
+
 ## Usage
 
 To use these dotfiles, simply follow these steps:
