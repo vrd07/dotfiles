@@ -1,7 +1,4 @@
-
-# Awesome Dotfiles
-
-Welcome to my collection of dotfiles! I use dotfiles to set up my environment on my Linux and macOS machines by providing custom configurations for various software applications.
+ I use these dotfiles to set up my environment on my Linux and macOS machines by providing custom configurations for various software applications. The directory structure is messy and in need of cleaning, which I will do at some point. Sorry about that. 
 
 ## Features
 
