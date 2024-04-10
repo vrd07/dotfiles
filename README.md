@@ -1,59 +1,60 @@
-## MiragianCycle's Dotfiles   (and macOS  too!)
 
-This repo holds the magic that makes my writing environment awesome across all my Unix-based systems (i.e. Linux and MacOS)
+# Awesome Dotfiles
 
-### What's in the box?  
+Welcome to my collection of dotfiles! I use dotfiles to set up my environment on my Linux and macOS machines by providing custom configurations for various software applications.
 
-* **Unix General (Linux, MacOS etc.):** Got configs for your everyday heroes - Vim and NeoVim   (if you use both).
-* **MacOS Exclusives:**  This is where things get fancy! Yabai keeps my windows in check  (WindowManager for the win!), skhd helps with super speedy keyboard shortcuts  (bye-bye repetitive tasks!), and there's even a place for SketchyBar customizations   (optional, but fun for customizing your Mac).
+## Features
 
-**Remember:** These are my preferences, but feel free to mix it up to fit your coding style. 
+- Customized configurations for various software applications, including:
+  - Vim
+  - NeoVim (NVChad and OVIWrite)
+  - Yabai (MacOS only)
+  - skhd (MacOS only)
+  - Sketchybar (MacOS only)
+- Easy-to-understand organization and setup instructions
+- Compatibility with both Linux and macOS environments
 
-**ALSO REMEMBER**: Never ever blindly copy code from the internet. Please take the time to look over the code and use it judiciously. 
+## Usage
 
-### Setting Up  
+To use these dotfiles, simply follow these steps:
 
-There are two ways to begin:
+1. Clone this repository to your local machine:
 
-**1. Manual Mode (DIY style):**
+   ```bash
+   git clone https://github.com/yourusername/dotfiles.git
+   ```
 
-* Grab this repo with `git clone`.
-*  the files and see what tickles your fancy.
-*  **For Unix folks:** Move or link  (like `.vimrc`) to their rightful spots in your home directory.
-*  **For macOS folks:** Same thing! Move the config files (e.g., `.yabai`) to their home in your home directory. For SketchyBar, follow their instructions and toss your custom app catalogs in the `Applications` directory  (optional, but pretty neat!).
-* **Important Note!**  Don't just copy-paste blindly - understand what each config does first  . 
+2. Navigate to the cloned repository:
 
+   ```bash
+   cd dotfiles
+   ```
 
-###  Peek Under the Hood  
+3. Review the available dotfiles and configurations in the repository.
 
-Here's a quick tour of what's inside:
+4. Copy the desired dotfiles to your home directory (`~`) or symlink them:
 
-* `.vimrc`: The main course - my Vim configuration.
-*  **(Optional)** `.vim` directory: Extra Vim goodies like plugins and snippets (yum!).
-*  **(Optional)** `.nvim` directory: NeoVim-specific configs (if you're rocking both Vim and NeoVim).
-* `macOS` directory: All the macOS goodness.
-    * `.yabai`:  Yabai window manager configuration.
-    * `.skhd`:  Keyboard shortcut magic with skhd.
+   ```bash
+   ln -s /path/to/dotfiles/.vimrc ~/.vimrc
+   ln -s /path/to/dotfiles/.config/nvim/init.vim ~/.config/nvim/init.vim
+   # Add additional instructions for macOS exclusive dotfiles
+   ```
 
+5. Enjoy your personalized setup!
 
-### Make it Yours  
+## Disclaimer
 
-While these configs are my jam, feel free to personalize them!  The key is to understand what each setting does before you go wild  .
+Please note that while I have made every effort to ensure the quality and accuracy of these dotfiles, it's essential to exercise caution and not blindly run code obtained from the internet. Make sure to review the code and configurations carefully before applying them to your system.
 
-**Pro-Tip:** Create a folder like `~/.dotfiles-local` to store your customizations  (this way, updates won't overwrite them).
+## No Liability
 
+By using these dotfiles, you acknowledge and agree that I shall not be liable for any damages or liabilities arising from the use of these dotfiles. Use them at your own risk.
 
-### Copyright  ©️
+## Contribution
 
-This repo is rocking the MIT License: [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/). Basically, feel free to use and share as you see fit  (with attribution, please! ).
+If you have any suggestions for improvements or additional configurations, feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated! 🚀
 
+## License
 
-### Bonus Round   
+This project is licensed under the [MIT License](LICENSE).
 
-Here are some resources that might be helpful:
-
-* Awesome Dotfiles: [https://github.com/awesomedotfiles/awesome-dotfiles](https://github.com/awesomedotfiles/awesome-dotfiles)
-* How to Create a Dotfiles Repository: [https://www.digitalocean.com/community/tutorials/how-to-create-a-dotfiles-repository](https://www.digitalocean.com/community/tutorials/how-to-create-a-dotfiles-repository)
-
-**Disclaimer**
-The author of this repository is not liable for any damages or unintended consequences arising from the use of these dotfiles. While every effort has been made to ensure the functionality and stability of these configurations, it is understood that they may not be compatible with all systems or user preferences. Users are advised to proceed with caution and to back up their existing configurations before implementing any changes.
