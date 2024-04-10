@@ -21,6 +21,11 @@ Welcome to my collection of dotfiles! I use dotfiles to set up my environment on
 - I code using the base config found on NVChad
 - I have both OVIWrite and NVChad running on my systems, using aliases to switch between the two depending on if I am writing or coding 
 
+## Emacs 
+
+- Try as I might, I can't stop myself from using Emacs. Org-mode, particularly, is a huge draw. This is my first emacs config and really not something you should use. 
+
+
 ## Usage
 
 To use these dotfiles, simply follow these steps:
